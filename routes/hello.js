@@ -1,5 +1,5 @@
 var express = require('express');
-var hello = express();
+var hello   = express();
 
 /* GET users listing. */
 hello.get('/', function(req, res, next) {

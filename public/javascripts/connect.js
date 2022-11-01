@@ -21,7 +21,7 @@ var dbConfig	= require('./dbconfig.js');
 const http		= require('http');
 
 const hostname	= 'localhost';
-const port 		= 3000;
+const port 		= 3001;
 
 const server = http.createServer((req, res) => {
 	console.log(req.header);
